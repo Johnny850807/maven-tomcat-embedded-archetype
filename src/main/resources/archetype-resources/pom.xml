@@ -10,7 +10,8 @@
     <name>${artifactId}</name>
 
     <properties>
-        <tomcat.version>8.5.2</tomcat.version>
+        <tomcat.version>8.5.40</tomcat.version>
+        <tomcat-logging-juli.version>8.5.2</tomcat-logging-juli.version>
         <mainClass>${package}.launch.TomcatEmbeddedBootstrap</mainClass>
     </properties>
 
@@ -28,7 +29,7 @@
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-logging-juli</artifactId>
-            <version>${tomcat.version}</version>
+            <version>${tomcat-logging-juli.version}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
