@@ -32,3 +32,5 @@ cd ${yourGroupId}
 mvn package
 ./target/bin/startup.bat
 ```
+
+3. Type 127.0.0.1:8080 (defaulted at 8080 port) in the browser's url location, then you can see the hello world jsp.
