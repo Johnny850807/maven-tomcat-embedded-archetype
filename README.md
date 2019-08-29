@@ -28,7 +28,7 @@ mvn -B  archetype:generate "-DgroupId=${yourGroupId}" "-DartifactId=${yourArtifa
 
 2. build and start the tomcat server
 ```cmd
-cd ${yourPackageName}
+cd ${yourGroupId}
 mvn package
 ./target/bin/startup.bat
 ```
