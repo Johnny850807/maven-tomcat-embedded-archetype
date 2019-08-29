@@ -10,7 +10,7 @@ root
 `-- src
     |-- main
         |`-- java
-        |    `-- ${package}
+        |    `-- ${yourPackageName}
         |        `-- launch
         |            `-- TomcatEmbeddedBootstrap.java
         `-- webapp
