@@ -10,7 +10,7 @@
     <name>${artifactId}</name>
 
     <properties>
-        <tomcat.version>9.0.30</tomcat.version>
+        <tomcat.version>9.0.35</tomcat.version>
         <tomcat-logging-juli.version>8.5.2</tomcat-logging-juli.version>
         <mainClass>${package}.launch.TomcatEmbeddedBootstrap</mainClass>
     </properties>
